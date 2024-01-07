@@ -1,12 +1,12 @@
 import './App.css';
-import Header from './layout/Header';
+import ImagePicker from './components/UI/ImagePicker';
 import MainImageSlider from './layout/MainImageSlider';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
       <MainImageSlider/>
+      <ImagePicker/>
     </div>
   );
 }
